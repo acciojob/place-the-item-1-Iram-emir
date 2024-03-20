@@ -1,2 +1,13 @@
+.holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Optional: evenly distributes items with equal space between them */
+}
 
-/* Your CSS Code here. */
+.item {
+  flex: 1 0 auto; /* This makes sure the items are evenly placed and do not shrink */
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
